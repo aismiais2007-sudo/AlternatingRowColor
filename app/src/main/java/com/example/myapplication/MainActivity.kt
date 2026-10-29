@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Оставляем строго только Hello и World
+
                     Greeting(wordsList = listOf("Hello", "World"))
                 }
             }
